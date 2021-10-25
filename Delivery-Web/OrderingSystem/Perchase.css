@@ -1,0 +1,74 @@
+#main{
+    font-size: 80;
+    background-color: brown;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 1665;
+    height: 90;
+}
+
+
+#K{
+    background-color: gray;
+}
+
+#M{
+    background-color: gray;
+}
+
+#D{
+    background-color: gray;
+}
+
+#plastic{
+    background-color: gray;
+    height: 70;
+}
+
+#Pay{
+    background-color: gray;
+    height: 105;
+}
+
+#Y{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    font-weight: bold;
+}
+
+#name{
+    background-color: gray;
+}
+
+#phone{
+    background-color: gray;
+
+}
+
+#phone-label{
+    font-size: 20;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#address-label{
+    font-size: 20;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#address{
+    background-color: gray;
+}   
+
+#order1{
+    background-color: cornsilk;
+    top: 700;
+    left: 1000;
+    width: 200;
+    height: 80;
+    position: absolute;
+    font-size: 70;
+    text-align: center;
+}

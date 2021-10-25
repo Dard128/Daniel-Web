@@ -1,0 +1,43 @@
+#container {
+    border: 3px solid white;
+    padding:10px;
+    margin: 30px;
+    width: 100;
+}
+
+
+#container2 {
+    border: 3px solid white;
+    padding: 10px;
+    margin: 30px;
+    width: 100;
+}
+
+
+#container3 {
+    border: 3px solid white;
+    padding:10px;
+    margin: 30px;
+    width: 100;
+}
+
+
+#container4 {
+    
+    border: 3px solid aqua;
+    padding:100px;
+    width: 100px;
+    height: 50px;
+    margin: 50px;
+    font-style: italic;
+    font-size: 30;
+    color: yellow;
+}
+
+
+
+#box {
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+}
