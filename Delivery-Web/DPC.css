@@ -1,0 +1,115 @@
+#Home{
+    background-color: brown;
+    position: fixed;
+    top: -70px;
+    left: 0px;
+    width: 1680;
+    height: 90;
+    font-size: 55;
+    font-family:cursive;
+    text-align: center;
+}
+
+
+#kfc{
+    top: 100;
+    left: 20;
+    width: 200;
+    height: 200;
+    position: relative;
+    position: absolute;
+}
+
+#B{
+    background-color: grey;
+    top: 200px;
+    left: 0px;
+    width: 1665;
+    height: 300;
+}
+
+
+
+#k-d{
+    top: 180;
+    left: 250;
+    position: absolute;
+    font-size: 40;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#K{
+    top: 130;
+    left: 250;
+    position: absolute;
+    font-size: 40;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#mt{
+    background-color: grey;
+    top: 82;
+    left: 0;
+    width: 1665;
+    height: 220;
+    position: relative;
+}
+
+#m{
+    top: 400;
+    left: 20;
+    width: 200;
+    height: 200;
+    position: absolute;
+}
+
+
+#MK{
+    top: 400;
+    left: 250;
+    font-size: 40;
+    position:absolute ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Mac{
+    top: 450;
+    left: 250;
+    position: absolute;
+    font-size: 40;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#DM{
+    background-color: grey;
+    top: 162;
+    left: 0;
+    width: 1665;
+    height: 220;
+    position: relative;
+}
+
+#DMS{
+    top: 700;
+    left: 20;
+    width: 200;
+    height: 200;
+    position: absolute;
+}
+
+#D{
+    top: 700;
+    left: 250;
+    font-size: 40;
+    position:absolute ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#DD{
+    top: 750;
+    left: 250;
+    position: absolute;
+    font-size: 40;
+    font-family: 'Times New Roman', Times, serif;
+}
