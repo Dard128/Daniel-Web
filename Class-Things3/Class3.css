@@ -1,0 +1,61 @@
+#ar:active{
+    color: orange;
+}
+
+a{
+    cursor: pointer;
+}
+
+#Flex{
+    display: flex;
+}
+
+#INF{
+    display: inline-flex;
+}
+
+#FLES{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#FLEE{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#FLEC{
+    display: flex;
+    justify-content: center;
+}
+
+#SAD{
+    display: flex;
+    justify-content: space-around;
+}
+
+#SBN{
+    display: flex;
+    justify-content: space-between;
+}
+
+#FS2{
+    display: flex;
+    align-items: flex-start;
+    background-color: green;
+    height: 300;
+}
+
+#FE2{
+    display: flex;
+    align-items: flex-end;
+    background-color: green;
+    height: 300;
+}
+
+#AC2{
+    display: flex;
+    align-items: center;
+    background-color: green;
+    height: 300;
+}
