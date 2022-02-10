@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        html, body{
+            height: 100%;
+        }
+        button{
+            width: 80px;
+            height: 29px;
+            border-radius: 7px;
+            border:none;
+            font-weight: bold;
+            margin:10px;
+            font-size: 15px;
+        }
+        h2{
+            color: cadetblue;
+            font-size: 40px;
+        }
+        .number{
+            font-size:40px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .updown{
+            background-color: blueviolet;
+        }
+        .updown:hover{
+            background-color: darkmagenta;
+        }
+        .reset{
+            color: white;
+            background-color: blue;
+        }
+        .reset:hover{
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body style = "height: 100%;">
+    <div style="display:flex; align-items: center; justify-content: center;
+     flex-direction: column; height: 100%; " >
+
+        <h2>Counter</h2>
+
+        <div id="number" class="number">0</div>
+    <div style=" display: flex;">
+        <button onclick="onClick('up')" class="updown">up</button>
+        <button onclick="onClick('down')" class="updown">down</button>
+    </div>
+        <button onclick="onClick('reset')" class="reset">reset</button>
+
+
+    </div>
+
+    
+
+    <script>
+        function onClick(type){
+            const element = document.getElementById("number");
+            let number = element.innerText
+            
+            console.log(number,type)
+            if(type === "up"){
+                number = parseInt(number)+1;
+                element.style.color = "blue";
+            }else if(type === "down"){
+                number = parseInt(number)-1;  
+                element.style.color = "red";
+            }else{
+                number = 0;
+                element.style.color = "black";
+            }
+            element.innerText = number;
+        }
+    </script>
+</body>
+</html>
